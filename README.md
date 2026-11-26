@@ -1,19 +1,26 @@
-# Rock-Paper-Scissor
+# Rock Paper Scissors
 
-A simple browser implementation of the classic Rock–Paper–Scissors game built with HTML, CSS and JavaScript.
+A small browser game built with HTML, CSS, and vanilla JavaScript. Choose rock, paper, or scissors and play a round against a computer generated move.
 
-Contents
+## Features
 
-- `index.html` — game UI and markup
-- `style.css` — styles for layout and visuals
-- `script.js` — game logic and user interaction
+- Click one of three image choices to play a round.
+- Displays both moves and announces a win, loss, or draw.
+- Tracks player and computer scores for the current page session.
+- Uses color feedback for the round result and adapts the layout for narrow screens.
 
-How to run
+Scores are held in browser memory and reset when the page is reloaded. This is a front end learning project; it has no account system, persistent storage, or backend.
 
-1. Open `index.html` in your browser.
-2. Play by clicking the Rock, Paper or Scissor buttons.
+## Tech stack
 
-Notes
+- HTML5
+- CSS3
+- Vanilla JavaScript
 
-- No external dependencies or build step.
-- Good for learning DOM manipulation and event handling.
+## Run locally
+
+Open `index.html` in a modern browser. No package installation or build step is required.
+
+## Deployment
+
+[Play the GitHub Pages version](https://khizarali07.github.io/Rock-Paper-Scissor/).
